@@ -8,7 +8,8 @@ public class String_Exercises
     // Example Output: "olleh"
     public string ReverseString(string input)
     {
-        return string.Concat(input.Reverse());
+        // TODO: Implement this method
+        return "";
     }
     
     // Description: Write a method that checks if a string
@@ -17,11 +18,7 @@ public class String_Exercises
     // Example Output: true
     public bool IsPalindrome(string input)
     {
-        var reversed = ReverseString(input);
-        if (input.Equals(reversed))
-        {
-            return true;
-        }
+        // TODO: Implement this method
         return false;
     }
     
@@ -31,7 +28,8 @@ public class String_Exercises
     // Example Output: "HELLO"
     public string ConvertToUpper(string input)
     {
-        return input.ToUpper();
+        // TODO: Implement this method
+        return "";
     }
 
     // Description: Write a method that counts the number
@@ -40,19 +38,8 @@ public class String_Exercises
     // Example Output: 2
     public int CountVowels(string input)
     {
-        int count = 0;
-        var vowels = new char[]{'a', 'e', 'y', 'u', 'i', 'o', 'æ', 'å', 'ø'};
-        foreach (var ch in input)
-        {
-            foreach (var vo in vowels)
-            {
-                if (ch == vo)
-                {
-                    count++;
-                }
-            }
-        }
-        return count;
+        // TODO: Implement this method
+        return 0;
     }
     
     // Description: Write a method that removes all
@@ -61,15 +48,8 @@ public class String_Exercises
     // Example Output: "helloworld"
     public string RemoveWhitespaces(string input)
     {
-        foreach (var ch in input)
-        {
-            if (ch == ' ')
-            {
-                var index = input.IndexOf(ch);
-                input = input.Remove(index,1);
-            }
-        }
-        return input;
+        // TODO: Implement this method
+        return "";
     }
 
     // Description: Write a method that finds the first non-repeated
