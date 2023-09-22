@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticExercises", "Arit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalExercises", "ConditionalExercises\ConditionalExercises.csproj", "{DAB82932-880D-4FBF-A2ED-CE4BCF9E47E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExercises", "LoopExercises\LoopExercises.csproj", "{697F00E3-9899-428C-8664-0FEB08E21001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DAB82932-880D-4FBF-A2ED-CE4BCF9E47E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAB82932-880D-4FBF-A2ED-CE4BCF9E47E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAB82932-880D-4FBF-A2ED-CE4BCF9E47E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697F00E3-9899-428C-8664-0FEB08E21001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697F00E3-9899-428C-8664-0FEB08E21001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697F00E3-9899-428C-8664-0FEB08E21001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697F00E3-9899-428C-8664-0FEB08E21001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
