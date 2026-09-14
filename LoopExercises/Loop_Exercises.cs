@@ -1,4 +1,6 @@
-﻿namespace LoopExercises;
+﻿using System.Collections.Generic;
+
+namespace LoopExercises;
 
 public class Loop_Exercises
 {
